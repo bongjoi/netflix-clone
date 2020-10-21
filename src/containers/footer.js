@@ -1,7 +1,7 @@
 import React from 'react';
 import { Footer } from '../components';
 
-export function FooterContainer() {
+export default function FooterContainer() {
   return (
     <Footer>
       <Footer.Title>질문이 있으신가요? 문의 전화: 00-111-222-3333</Footer.Title>
