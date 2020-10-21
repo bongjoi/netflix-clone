@@ -3,6 +3,7 @@ import styled, { keyframes, css } from 'styled-components/macro';
 export const Container = styled.div`
   padding: 70px 45px;
   display: flex;
+  flex-direction: column;
   border-bottom: 8px solid #222;
 `;
 
@@ -10,8 +11,12 @@ export const Inner = styled.div`
   margin: auto;
   display: flex;
   flex-direction: column;
-  width: 100%;
-  max-width: 75%;
+  width: 75%;
+  max-width: 815px;
+
+  @media screen and (max-width: 1000px) {
+    width: 90%;
+  }
 `;
 
 export const Title = styled.h1`
@@ -32,6 +37,12 @@ export const Item = styled.div`
 
   &:first-of-type {
     margin-top: 3em;
+  }
+
+  @media screen and (max-width: 600px) {
+    &:first-of-type {
+      margin-top: 2em;
+    }
   }
 `;
 
@@ -54,7 +65,7 @@ export const Header = styled.div`
   }
 
   @media screen and (max-width: 600px) {
-    font-size: 16px;
+    font-size: 20px;
 
     img {
       width: 16px;
