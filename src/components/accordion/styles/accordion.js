@@ -8,7 +8,7 @@ export const Container = styled.div`
 `;
 
 export const Inner = styled.div`
-  margin: auto;
+  margin: 0 auto 1.5em;
   display: flex;
   flex-direction: column;
   width: 75%;

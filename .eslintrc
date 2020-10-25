@@ -12,7 +12,7 @@
     "node": true,
     "es6": true
   },
-  "extends": ["airbnb"],
+  "extends": ["airbnb", "prettier"],
   "plugins": ["import", "react-hooks"],
   "rules": {
     "jsx-a11y/label-has-associated-control": "off",
@@ -20,6 +20,9 @@
     "no-console": "off",
     "no-underscore-dangle": "off",
     "no-constant-condition": "off",
+    "no-param-reassign": "off",
+    "no-unused-expressions": "off",
+    "no-confusing-arrow": "off",
     "react/prop-types": "off",
     "react/forbid-prop-types": "off",
     "react/jsx-filename-extension": "off",
@@ -28,7 +31,6 @@
     "react/jsx-props-no-spreading": "off",
     "object-curly-newline": "off",
     "linebreak-style": "off",
-    "no-param-reassign": "off",
     "arrow-body-style": "off",
     "operator-linebreak": [
       "error",

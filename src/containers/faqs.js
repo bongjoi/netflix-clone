@@ -16,10 +16,10 @@ export default function FaqsContainer() {
       </Accordion.Inner>
 
       <OptForm>
-        <OptForm.Text>
+        <OptForm.Title>
           시청할 준비가 되셨나요? 멤버십을 등록하거나 재시작하려면 이메일 주소를
           입력하세요.
-        </OptForm.Text>
+        </OptForm.Title>
         <OptForm.Break />
         <OptForm.Input placeholder="이메일 주소" />
         <OptForm.Button>30일 무료 이용</OptForm.Button>
